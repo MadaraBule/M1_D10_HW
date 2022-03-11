@@ -43,3 +43,4 @@ function returnHigh(a, b) {
     }
 }
 console.log(returnHigh(sum1, sum2));
+//------DOM--------
