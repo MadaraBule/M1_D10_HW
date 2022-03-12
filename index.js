@@ -72,9 +72,10 @@ function onLoad() {
 }
 window.onload = onLoad
 //-------
-let booom = document.getElementById("roundBorders.tr")
-t = t.document.getElementsByTagName("td");
-booom.classList.add("test");
+let booom = document.getElementById("roundBorders");
+let tr = booom.getElementsByTagName("tr")
+let td = tr.getElementsByTagName("td")
+td.classList.add("test");
 //---------
 let check = document.strictErrorChecking
 if (condition) {
@@ -86,3 +87,7 @@ if (condition) {
 let empty = " ";
 let emptyThing = document.replaceChild(empty, "emptyThis")
 //------------
+window.addEventListener("load", alert("Page loaded"));
+//------------
+let list = document.getElementById("emptyThis");
+list.innerHTML = "";
